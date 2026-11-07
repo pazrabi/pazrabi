@@ -34,7 +34,7 @@
 
 | Проект | Что это | Технологии |
 |---|---|---|
-| **[aviaticket](https://github.com/pazrabi/aviaticket)** | Telegram-бот, который ищет дешёвые авиабилеты сразу на 7 агрегаторах (Aviasales, Яндекс Путешествия, Туту, Купибилет, OZON Travel и др.). Парсеры читают JSON-ответы сайтов, бот хранит историю цен и строит прогноз | Python, Playwright, Telegram Bot API, SQLite, pytest (90+ тестов) |
+| **[aviaticket](https://github.com/pazrabi/aviaticket)** | Telegram-бот, который ищет дешёвые авиабилеты сразу на 6 сайтах (Aviasales, Яндекс Путешествия, Туту, Купибилет, OZON Travel, Т-Путешествия). Парсеры читают JSON-ответы сайтов, бот хранит историю цен и строит прогноз | Python, Playwright, Telegram Bot API, SQLite, pytest (900+ тестов) |
 | **[droidhub](https://github.com/pazrabi/droidhub)** | Сервер для удалённого управления Android-телефонами из браузера и для ИИ-агентов через MCP: скриншоты, тапы, ввод текста, разбор UI. Есть токены для разных клиентов, лимиты, аудит, SSO и Telegram-алерты о перегреве | FastAPI, ADB, Tailscale, MCP, vanilla JS |
 | **[gemini-pool](https://github.com/pazrabi/geminipool)** | Пул ИИ-агентов-разработчиков: получает задачу по MCP, агент пишет код в отдельной git-ветке, второй агент делает ревью и прогоняет тесты, затем отчёт уходит ведущему. Есть веб-дашборд и OAuth | Python stdlib, git worktrees, MCP, OAuth 2.0, systemd |
 | **[roulette](https://github.com/pazrabi/roulette)** | Telegram Mini App с мини-играми на виртуальных фишках: экономика, скины-сцены, рефералы, бэкапы с шифрованием | FastAPI, JS, SQLite, GitHub Actions CI, e2e-тесты |
